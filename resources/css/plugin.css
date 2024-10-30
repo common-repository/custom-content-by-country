@@ -1,0 +1,80 @@
+@CHARSET "ISO-8859-1";
+
+/* GENERAL STYLES */
+
+.bootstrap-wpadmin {
+}
+.bootstrap-wpadmin .row {
+	margin-left: 0;
+}
+#pluginlogo_32 {
+	background: url("../images/worpit_32x32.png") no-repeat 0 3px transparent;
+}
+.page-header .header-icon32 {
+	display: inline-block;
+	float: left;
+	height: 40px;
+	vertical-align: middle;
+	width: 48px;
+}
+.wrap .icon32 {
+	width: 32px;
+}
+.bootstrap-wpadmin .page-header {
+	padding-bottom: 17px;
+	margin: 18px 0;
+	border-bottom: 1px solid #eeeeee;
+}
+/* Form elements */
+.bootstrap-wpadmin .label {
+	vertical-align: baseline !important;
+}
+.shortcode-usage {
+	border-bottom: 1px solid #bbbbbb;
+	margin-bottom: 10px;
+}
+p.code-description {
+	font-style: italic;
+}
+/* BOOSTRAP SETTINGS PAGE STYLES */
+.wrap .icon32 {
+	width: 32px;
+}
+.submit span {
+	font-size: smaller;
+	font-style: italic;
+}
+.option_section {
+	border: 1px solid #f2f2f2;
+	border-radius: 8px 8px 8px 8px;
+	margin-bottom: 8px;
+	padding: 8px 10px;
+}
+.option_section label {
+	background-color: transparent;
+}
+.selected_item label {
+	font-weight: bold;
+}
+.nonselected_item {
+	background-color: transparent;
+}
+.nonselected_item label {
+	font-weight: normal;
+}
+.option_section:hover {
+	background-color: #ffffff;
+	border: 1px dashed #bbbbbb;
+	cursor: pointer;
+}
+
+.option_section.active {
+	background-color: #f6f6f6;
+	border-color: #dddddd;
+}
+.option_section.active .option_summary {
+	font-weight: bolder;
+}
+.option_section input[type=checkbox]:checked::before {
+	content: "";
+}
